@@ -5,19 +5,19 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-// import Experience from "./components/Experience/Experience";
-// import Education from "./components/Education/Education";
-import Resume from "./components/Resume/ResumeNew";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate,
-} from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import Experience from "./components/Experience/Experience";
+// import Education from "./components/Education/Education";
+import Resume from "./components/Resume/ResumeNew";
+import {
+  HashRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 
 function App() {
   const [load, upadateLoad] = useState(true);
