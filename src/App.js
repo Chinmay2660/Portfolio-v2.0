@@ -9,8 +9,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Experience from "./components/Experience/Experience";
-// import Education from "./components/Education/Education";
+import Experience from "./components/Experience/Experience";
+import Education from "./components/Education/Education";
 import Resume from "./components/Resume/ResumeNew";
 import {
   HashRouter as Router,
@@ -40,8 +40,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/experience" element={<Experience />} />
-          <Route path="/education" element={<Education />} /> */}
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
