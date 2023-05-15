@@ -7,10 +7,9 @@ import {
   DiNodejs,
   DiMongodb,
   DiJava,
-  DiGit,
+  DiJqueryLogo,
 } from "react-icons/di";
-import // SiLinux,
-"react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -31,10 +30,13 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiJqueryLogo />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
       </Col>
     </Row>
   );
