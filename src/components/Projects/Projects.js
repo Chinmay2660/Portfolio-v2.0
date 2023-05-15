@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="TinDog"
+              description="TinDog is a simple web application built with HTML, CSS, and Bootstrap that allows users to browse and connect with other dog owners in their area."
+              ghLink="https://github.com/Chinmay2660/Tindog"
+              demoLink="https://chinmay2660.github.io/Tindog/"
             />
           </Col>
 
@@ -36,9 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="ToDoList"
+              description="ToDoList is a simple and intuitive To-Do List application built with HTML, CSS, and JavaScript. The application allows users to manage their daily tasks by adding, editing, deleting, and marking them as completed. Additionally, users can filter tasks by completion status to easily visualize what tasks need to be completed."
+              ghLink="https://github.com/Chinmay2660/ToDoList"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -47,10 +47,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Blog"
+              description="My Blog is a simple and responsive blog website created using Node.js, Express, and MongoDB. The application allows users to read blog posts and create an account to write and publish their own blog posts. The website features a modern, minimalist design that focuses on readability and usability."
+              // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
@@ -58,9 +57,21 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="DiceeGame"
+              description="About
+              DiceeGame is a web-based game where users can roll two dice and see who gets the higher score. The game is built with HTML, CSS, and JavaScript and includes animations for the dice rolls."
+              ghLink="https://github.com/Chinmay2660/DiceeGame"
+              demoLink="https://chinmay2660.github.io/DiceeGame/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="DrumKit"
+              description="DrumKit is a web application that allows users to play drum sounds by clicking on images of drums or using the corresponding keyboard keys. The application is built with HTML, CSS, and JavaScript and includes seven different drum sounds."
+              ghLink="https://github.com/Chinmay2660/DrumKit"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
@@ -69,10 +80,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="SimonGame"
+              description="Simon Game is a classic memory game built with HTML, CSS, and JavaScript. The game has four colored buttons that light up and play a sound in a specific pattern, and the player must repeat the pattern by clicking the buttons in the correct order. The game starts with a simple pattern and increases in complexity as the player progresses."
+              ghLink="https://github.com/Chinmay2660/SimonGame"
+              demoLink="https://chinmay2660.github.io/SimonGame/"
             />
           </Col>
 
@@ -80,10 +91,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="DSA By Abdul Bari"
+              description="This repository contains implementations of popular data structures and algorithms in C++ based on the teachings of Abdul Bari, an expert in the field of computer science and engineering. The implementations are meant to serve as a reference for those looking to improve their understanding of data structures and algorithms."
+              ghLink="https://github.com/Chinmay2660/DSA-By-Abdul-Bari"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
