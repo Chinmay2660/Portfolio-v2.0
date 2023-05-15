@@ -33,15 +33,12 @@ function Home() {
                 <strong className="main-name"> CHINMAY BHOIR </strong>
               </h1>
 
-              <div
-                style={{
-                  padding: 50,
-                  textAlign: "left",
-                }}
-              >
+              <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
-              <div style={{ padding: 50 }}>
+              <div
+                style={{ paddingLeft: 10, paddingTop: 0, marginLeft: "10px" }}
+              >
                 <Row>
                   <ResumeNew />
                 </Row>{" "}
