@@ -2,9 +2,9 @@
   Portfolio Website - v2.0<br/>
   <a href="HYPERLINK" target="_blank">CHINMAY</a>
 </h2>
-<!-- <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div> -->
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img.png" />
+</div>
 
 <br/>
 
