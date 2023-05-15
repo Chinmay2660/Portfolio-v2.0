@@ -37,7 +37,7 @@ function Home() {
                 <Type />
               </div>
               <div
-                style={{ paddingLeft: 10, paddingTop: 0, marginLeft: "10px" }}
+                style={{ paddingLeft: 10, paddingTop: 0, marginLeft: "15px" }}
               >
                 <Row>
                   <ResumeNew />
