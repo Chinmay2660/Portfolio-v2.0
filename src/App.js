@@ -13,7 +13,7 @@ import Experience from "./components/Experience/Experience";
 import Education from "./components/Education/Education";
 import Resume from "./components/Resume/ResumeNew";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Routes,
   Navigate,
