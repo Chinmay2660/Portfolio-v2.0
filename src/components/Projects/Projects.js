@@ -72,7 +72,7 @@ function Projects() {
               title="DrumKit"
               description="DrumKit is a web application that allows users to play drum sounds by clicking on images of drums or using the corresponding keyboard keys. The application is built with HTML, CSS, and JavaScript and includes seven different drum sounds."
               ghLink="https://github.com/Chinmay2660/DrumKit"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://chinmay2660.github.io/DrumKit/"
             />
           </Col>
 
