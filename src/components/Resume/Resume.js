@@ -7,6 +7,8 @@ import pdf from "../../Assets/../Assets/Resume_Chinmay_Bhoir.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 // import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+
+
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 // const resumeLink =
@@ -18,12 +20,10 @@ function Resume() {
   // useEffect(() => {
   //   setWidth(window.innerWidth);
   // }, []);
-  const downloadFile = () => {
-    const link = document.createElement("a");
-    link.href = pdf;
-    link.download = "Resume_Chinmay_Bhoir.pdf";
-    link.click();
-  };
+
+  
+
+  
   return (
     <div>
       <Container fluid className="resume-section">
@@ -36,10 +36,11 @@ function Resume() {
         >
           <Button
             variant="primary"
-            // href={pdf}
-            // target="_blank"
-            onClick={downloadFile}
+            href={pdf}
+            target="_blank"
             style={{ maxWidth: "250px" }}
+            className=
+            "download-button"
           >
             <AiOutlineDownload />
             &nbsp;Download Resume

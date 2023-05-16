@@ -4,7 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import ResumeNew from "../Resume/Resume";
+import Resume from "../Resume/Resume";
 
 function Home() {
   return (
@@ -34,14 +34,7 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
-              <div
-                style={{ paddingLeft: 10, paddingTop: 0, marginLeft: "15px" }}
-              >
-                <Row>
-                  <ResumeNew />
-                </Row>{" "}
+                <Type />               
               </div>
             </Col>
 
@@ -56,6 +49,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <Resume />
       <Home2 />
     </section>
   );

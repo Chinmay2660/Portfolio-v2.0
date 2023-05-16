@@ -741,3 +741,13 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+
+.download-button:hover {
+  /* Add your desired hover styles here */
+  color: #fff !important;
+background-color: #6d20c5d7 !important;
+border-color: #6d20c5d7 !important;
+}
+
