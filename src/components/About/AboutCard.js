@@ -26,7 +26,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Failure is the road to sucess!"{" "}
+            "Failure is the road to success!"{" "}
           </p>
           <footer className="blockquote-footer">Chinmay</footer>
         </blockquote>
