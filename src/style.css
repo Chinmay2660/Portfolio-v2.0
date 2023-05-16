@@ -256,7 +256,7 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -288,6 +288,7 @@ button:focus {
   font-size: 2.2em !important;
   color: #be6adf !important;
   font-weight: 600 !important;
+  overflow: overlay;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
@@ -603,9 +604,11 @@ button:focus {
 /* --------- */
 
 .resume-section {
-  position: relative !important;
-  padding-top: 110px !important;
-  padding-bottom: 30px !important;
+  position: sticky !important;
+  /* padding-left: 0; */
+  padding-top: 60px !important;
+  margin-left: 15px;
+  /* padding-bottom: 30px !important;  */
   /* background-image: var(--section-background-color) !important; */
   color: white !important;
 }

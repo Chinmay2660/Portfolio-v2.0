@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Resume from "../Resume/Resume";
-
 function Home() {
   return (
     <section>
@@ -17,6 +16,7 @@ function Home() {
               <h1
                 style={{
                   paddingBottom: 15,
+                  marginLeft: "10px",
                 }}
                 className="heading"
               >
@@ -26,18 +26,25 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
-
-              <h1 className="heading-name">
+              <h1 style={{
+                  paddingBottom: 15,
+                  marginLeft: "15px",
+                }} className="heading-name">
                 {" "}
                 I'M
                 <strong className="main-name"> CHINMAY BHOIR </strong>
               </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <Row>
+              <div style={{ padding: 50, paddingTop:20, paddingBottom: 0,textAlign: "left", marginLeft: "25px"}}>
                 <Type />
               </div>
+              </Row>
+              <Row>
+                <div style={{ padding: 20 , paddingTop: 0, marginLeft: "46px"}}>
+                  <Resume />
+                </div>
+              </Row>
             </Col>
-
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
@@ -49,10 +56,8 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Resume />
       <Home2 />
     </section>
   );
 }
-
 export default Home;
