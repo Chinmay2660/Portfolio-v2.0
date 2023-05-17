@@ -40,9 +40,14 @@ function Home() {
               </div>
               </Row>
               <Row>
-                <div style={{ padding: 20 , paddingTop: 0, marginLeft: "46px"}}>
+                <Col><div style={{ padding: 0 , paddingTop: 0, marginLeft: "46px"}}>
                   <Resume />
                 </div>
+                </Col>
+                <Col><div style={{ padding: 0 , paddingTop: 0, marginLeft: "20px"}}>
+                  <Resume />
+                </div>
+                </Col>
               </Row>
             </Col>
             <Col md={5} style={{ paddingBottom: 20 }}>
