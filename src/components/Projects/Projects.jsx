@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import tindog from "../../Assets/Projects/tindog.png";
 import todolist from "../../Assets/Projects/todolist.png";
-// import blog from "../../Assets/Projects/blog.png";
 import diceegame from "../../Assets/Projects/diceegame.png";
 import drumkit from "../../Assets/Projects/drumkit.png";
 import simongame from "../../Assets/Projects/simongame.png";
@@ -42,17 +41,6 @@ function Projects() {
               demoLink="https://crazy-elk.cyclic.app/"
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              // imgPath={blog}
-              isBlog={false}
-              title="Blog"
-              description="My Blog is a simple and responsive blog website created using Node.js, Express, and MongoDB. The application allows users to read blog posts and write and publish their own blog posts. The website features a modern, minimalist design that focuses on readability and usability."
-              ghLink="https://github.com/Chinmay2660/Blog"
-              // demoLink="https://editor.soumya-jit.tech/"
-            />
-          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
