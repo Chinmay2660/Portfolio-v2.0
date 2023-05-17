@@ -20,8 +20,8 @@ function Footer() {
           <h3>Copyright © {year} Chinmay</h3>
         </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
+          <ul className="footer-icons ">
+            <li className="social-icons footer-social-icons">
               <a
                 href="https://github.com/Chinmay2660"
                 style={{ color: "white" }}
@@ -31,7 +31,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="social-icons footer-social-icons">
               <a
                 href="https://twitter.com/ChinmayBhoir14"
                 style={{ color: "white" }}
@@ -41,7 +41,7 @@ function Footer() {
                 <AiOutlineTwitter />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="social-icons footer-social-icons">
               <a
                 href="https://www.linkedin.com/in/chinmay2660/"
                 style={{ color: "white" }}
@@ -51,7 +51,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="social-icons footer-social-icons">
               <a
                 href="https://www.instagram.com/chinmay__bhoir/"
                 style={{ color: "white" }}
