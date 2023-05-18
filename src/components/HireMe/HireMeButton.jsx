@@ -1,16 +1,17 @@
-import React from "react";
-// import "./Resume.css";
+import React from 'react';
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Resume_Chinmay_Bhoir.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-function Resume() {
+const HireMeButton = () => {
+  const handleClick = () => {
+    window.location.href = 'mailto:bhoirchinmay2014@gmail.com';
+  };
+
   return (
     <div>
-      <Container fluid className="resume-btn">
+      <Container fluid className="hireMe-btn">
         <Particle />
         <Row
           style={{
@@ -18,19 +19,14 @@ function Resume() {
             position: "relative",
           }}
         >
-          <Button
-            variant="primary"
-            href={pdf}
+          <Button variant="primary"
             target="_blank"
             style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download Resume
-          </Button>
+            onClick={handleClick}>Hire Me</Button>
         </Row>
       </Container>
     </div>
   );
-}
+};
 
-export default Resume;
+export default HireMeButton;

@@ -289,7 +289,9 @@ button:focus {
   color: #be6adf !important;
   font-weight: 600 !important;
   overflow: overlay;
+  word-wrap: break-word; 
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: #b562d6 !important;
@@ -529,9 +531,23 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+.home-btn-container{
+  display: flex;
+  flex-direction: row ;
+}
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
+  }
+  .home-btn-container{
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 600px) {
+  .home-btn-container{
+    flex-direction: column;
   }
 }
 
@@ -562,16 +578,8 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
-/* Resume */
-/* --------- */
 
-.resume-btn {
-  position: sticky !important;
-  padding-top: 60px !important;
-  margin-left: 15px;
-  color: white !important;
-}
+/* -- fork Button-- */
 
 .fork-btn {
   font-size: 1.1em !important;
@@ -595,10 +603,32 @@ button:focus {
   display: none !important;
 }
 
-.download-button:hover {
-  /* Add your desired hover styles here */
+/* -- Resume Button-- */
+
+/* .resume-btn:hover {
   color: #fff !important;
   background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important;
+} */
+
+.resume-btn {
+  position: sticky !important;
+  padding-top: 60px !important;
+  margin-left: 15px;
+  color: white !important;
+}
+
+/* -- Hire Me Button-- */
+
+/* .hireMe-btn:hover {
+  color: #fff !important;
+  border-color: #6d20c5d7 !important;
+} */
+
+.hireMe-btn {
+  position: sticky !important;
+  padding-top: 60px !important;
+  margin-left: 15px;
+  color: white !important;
 }
 

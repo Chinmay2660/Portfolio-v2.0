@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Resume from "../Resume/Resume";
+import HireMeButton from "../HireMe/HireMeButton";
 function Home() {
   return (
     <section>
@@ -39,16 +40,18 @@ function Home() {
                 <Type />
               </div>
               </Row>
-              <Row>
-                <Col><div style={{ padding: 0 , paddingTop: 0, marginLeft: "46px"}}>
+              <div className="home-btn-container">
+                <Col>
+                <div style={{ padding: 0 , paddingTop: 0, marginLeft: "46px"}}>
                   <Resume />
                 </div>
                 </Col>
-                {/* <Col><div style={{ padding: 0 , paddingTop: 0, marginLeft: "20px"}}>
-                  <Resume />
+                <Col>
+                <div style={{ padding :0, paddingTop: 0, marginLeft: "46px"}}>
+                  <HireMeButton />
                 </div>
-                </Col> */}
-              </Row>
+                </Col>
+              </div>
             </Col>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
