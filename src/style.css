@@ -536,7 +536,7 @@ button:focus {
   flex-direction: row ;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .tech-icons {
     margin: 10px !important;
   }
@@ -545,12 +545,18 @@ button:focus {
   }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .home-btn-container{
     flex-direction: column;
   }
   .hireMe-btn {
-    padding-top: 30px;
+    padding-top: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .hireMe-btn {
+    padding-top: 30px !important;
   }
 }
 
@@ -559,9 +565,10 @@ button:focus {
     flex-direction: row;
   }
   .hireMe-btn {
-    padding-top: 30px;
+    padding-top: 60px !important;
   }
 }
+
 
 .tech-icons:hover {
   transform: scale(1.05) !important;
@@ -583,12 +590,6 @@ button:focus {
   list-style: none !important;
   text-align: left !important;
   padding-left: 1px !important;
-}
-
-@media (max-width: 767px) {
-  .about-img {
-    padding-top: 0 !important;
-  }
 }
 
 /* -- fork Button-- */
@@ -617,12 +618,6 @@ button:focus {
 
 /* -- Resume Button-- */
 
-/* .resume-btn:hover {
-  color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
-} */
-
 .resume-btn {
   position: sticky !important;
   padding-top: 60px !important;
@@ -632,14 +627,8 @@ button:focus {
 
 /* -- Hire Me Button-- */
 
-/* .hireMe-btn:hover {
-  color: #fff !important;
-  border-color: #6d20c5d7 !important;
-} */
-
 .hireMe-btn {
   position: sticky !important;
-  padding-top: 60px !important;
   margin-left: 15px;
   color: white !important;
 }

@@ -42,12 +42,12 @@ function Home() {
               </Row>
               <div className="home-btn-container">
                 <Col>
-                <div style={{ padding: 0 , paddingTop: 0, marginLeft: "46px"}}>
+                <div style={{ marginLeft: "46px"}}>
                   <Resume />
                 </div>
                 </Col>
                 <Col>
-                <div style={{ padding :0, paddingTop: 0, marginLeft: "46px"}}>
+                <div style={{ marginLeft: "46px"}}>
                   <HireMeButton />
                 </div>
                 </Col>
