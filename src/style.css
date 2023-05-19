@@ -549,6 +549,18 @@ button:focus {
   .home-btn-container{
     flex-direction: column;
   }
+  .hireMe-btn {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .home-btn-container{
+    flex-direction: row;
+  }
+  .hireMe-btn {
+    padding-top: 30px;
+  }
 }
 
 .tech-icons:hover {
