@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-// import Type from "./Type";
+import Type from "./Type";
 import Resume from "../Resume/Resume";
 import HireMeButton from "../HireMe/HireMeButton";
 
@@ -37,7 +37,7 @@ function Home() {
                 I'M
                 <strong className="main-name"> CHINMAY BHOIR </strong>
               </h1>
-              {/* <Row>
+              <Row>
                 <div
                   style={{
                     padding: 50,
@@ -49,7 +49,7 @@ function Home() {
                 >
                   <Type />
                 </div>
-              </Row> */}
+              </Row>
               <div className="home-btn-container">
                 <Col>
                   <div style={{ marginLeft: "46px" }}>
