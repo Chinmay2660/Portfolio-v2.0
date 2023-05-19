@@ -288,8 +288,7 @@ button:focus {
   font-size: 2.2em !important;
   color: #be6adf !important;
   font-weight: 600 !important;
-  overflow: overlay;
-  word-wrap: break-word; 
+  /* overflow: overlay; */
 }
 
 .Typewriter__cursor {
@@ -619,7 +618,7 @@ button:focus {
 /* -- Resume Button-- */
 
 .resume-btn {
-  position: sticky !important;
+  position: relative !important;
   padding-top: 60px !important;
   margin-left: 15px;
   color: white !important;
@@ -628,7 +627,7 @@ button:focus {
 /* -- Hire Me Button-- */
 
 .hireMe-btn {
-  position: sticky !important;
+  position: relative !important;
   margin-left: 15px;
   color: white !important;
 }
