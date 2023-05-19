@@ -30,7 +30,7 @@ function Home2() {
               <br />
               <br />I am fluent in languages like
               <i>
-                <b className="purple"> Java, C++, Javascript. </b>
+                <b className="purple"> Java and C++. </b>
               </i>
               <br />
               <br />
