@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio-v2.0/static/css/main.d10fb1be.css",
-    "main.js": "/Portfolio-v2.0/static/js/main.d820c7ef.js",
+    "main.js": "/Portfolio-v2.0/static/js/main.78024851.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio-v2.0/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-v2.0/static/js/787.1ed0c42c.chunk.js",
     "static/media/tindog.png": "/Portfolio-v2.0/static/media/tindog.bb5aa10ca008f3bdf510.png",
-    "static/media/Resume_Chinmay_Bhoir.pdf": "/Portfolio-v2.0/static/media/Resume_Chinmay_Bhoir.6cc215ff974e5bd59010.pdf",
+    "static/media/Resume_Chinmay_Bhoir.pdf": "/Portfolio-v2.0/static/media/Resume_Chinmay_Bhoir.432b5e3f8b1e6d82527b.pdf",
     "static/media/simongame.png": "/Portfolio-v2.0/static/media/simongame.ff8a0e3a206e77a024b8.png",
     "static/media/todolist.png": "/Portfolio-v2.0/static/media/todolist.4ecf7838a18a86c67840.png",
     "static/media/drumkit.png": "/Portfolio-v2.0/static/media/drumkit.653cb055038901211cda.png",
@@ -17,12 +17,12 @@
     "static/media/pre.svg": "/Portfolio-v2.0/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio-v2.0/index.html",
     "main.d10fb1be.css.map": "/Portfolio-v2.0/static/css/main.d10fb1be.css.map",
-    "main.d820c7ef.js.map": "/Portfolio-v2.0/static/js/main.d820c7ef.js.map",
+    "main.78024851.js.map": "/Portfolio-v2.0/static/js/main.78024851.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio-v2.0/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-v2.0/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d10fb1be.css",
-    "static/js/main.d820c7ef.js"
+    "static/js/main.78024851.js"
   ]
 }
