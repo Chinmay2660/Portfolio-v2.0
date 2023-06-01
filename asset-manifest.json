@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-v2.0/static/css/main.d10fb1be.css",
-    "main.js": "/Portfolio-v2.0/static/js/main.78024851.js",
-    "static/js/415.4d6acbeb.chunk.js": "/Portfolio-v2.0/static/js/415.4d6acbeb.chunk.js",
+    "main.css": "/Portfolio-v2.0/static/css/main.38cca6e8.css",
+    "main.js": "/Portfolio-v2.0/static/js/main.cb2cf569.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-v2.0/static/js/787.1ed0c42c.chunk.js",
     "static/media/tindog.png": "/Portfolio-v2.0/static/media/tindog.bb5aa10ca008f3bdf510.png",
     "static/media/Resume_Chinmay_Bhoir.pdf": "/Portfolio-v2.0/static/media/Resume_Chinmay_Bhoir.432b5e3f8b1e6d82527b.pdf",
@@ -12,17 +11,15 @@
     "static/media/home-main.svg": "/Portfolio-v2.0/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/Portfolio-v2.0/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/diceegame.png": "/Portfolio-v2.0/static/media/diceegame.f396d277f7c01b5a17ee.png",
-    "static/media/home-bg.jpg": "/Portfolio-v2.0/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/Portfolio-v2.0/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
-    "static/media/pre.svg": "/Portfolio-v2.0/static/media/pre.d4812f51c8c80976eaab.svg",
+    "static/media/avatar.svg": "/Portfolio-v2.0/static/media/avatar.e4b0db871e6b9f60f675e4ec287ef105.svg",
+    "static/media/pre.svg": "/Portfolio-v2.0/static/media/pre.cfed776495e883ee3e61.svg",
     "index.html": "/Portfolio-v2.0/index.html",
-    "main.d10fb1be.css.map": "/Portfolio-v2.0/static/css/main.d10fb1be.css.map",
-    "main.78024851.js.map": "/Portfolio-v2.0/static/js/main.78024851.js.map",
-    "415.4d6acbeb.chunk.js.map": "/Portfolio-v2.0/static/js/415.4d6acbeb.chunk.js.map",
+    "main.38cca6e8.css.map": "/Portfolio-v2.0/static/css/main.38cca6e8.css.map",
+    "main.cb2cf569.js.map": "/Portfolio-v2.0/static/js/main.cb2cf569.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-v2.0/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d10fb1be.css",
-    "static/js/main.78024851.js"
+    "static/css/main.38cca6e8.css",
+    "static/js/main.cb2cf569.js"
   ]
 }
