@@ -10,7 +10,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 function Resume() {
   return (
     <div>
-      <Container fluid className="resume-btn">
+      <Container fluid className="resume-btn resume-btn-inner">
         <Particle />
         <Row
           style={{

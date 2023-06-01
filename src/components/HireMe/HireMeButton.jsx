@@ -11,7 +11,7 @@ const HireMeButton = () => {
 
   return (
     <div>
-      <Container fluid className="hireMe-btn">
+      <Container fluid className="hireMe-btn hireMe-btn-inner">
         <Particle />
         <Row
           style={{
