@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 const HireMeButton = () => {
@@ -12,7 +11,6 @@ const HireMeButton = () => {
   return (
     <div>
       <Container fluid className="hireMe-btn hireMe-btn-inner">
-        <Particle />
         <Row
           style={{
             justifyContent: "left",

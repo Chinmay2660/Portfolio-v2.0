@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    #16161a,
+    #16161a
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    #16161a,
+    #16161a
   );
 
   --imp-text-color: #7f5af0;
@@ -25,6 +25,7 @@ button:focus {
 /* --------- */
 /*  Preloader */
 /* --------- */
+
 #preloader {
   position: fixed;
   top: 0;
@@ -32,7 +33,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #16161a;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -62,14 +63,12 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  /* background: rgba(178, 121, 216, 0.959); */
   background: #7f5af0;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  /* background: rgba(222, 130, 235, 0.911); */
   background: #7f5af0;
   border-radius: 12px;
 }
@@ -77,10 +76,11 @@ button:focus {
 /* --------- */
 /* Navbar Section  */
 /* --------- */
+
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #16161a !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px #16161a !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -146,12 +146,13 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #16161a !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
 }
+
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
 }
@@ -406,7 +407,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: #16161a;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -449,7 +450,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #7f5af0 !important;
 }
 /* --------- */
 /* Projects */
@@ -470,7 +471,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px #7f5af0 !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -481,7 +482,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #7f5af0 !important;
 }
 
 .btn-primary {
@@ -529,12 +530,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #7f5af0 !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px #7f5af0 !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -580,8 +581,9 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid #7f5af0 !important;
 }
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
