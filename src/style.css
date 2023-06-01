@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    #16161a,
-    #16161a
+    #242629,
+    #242629
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    #16161a,
-    #16161a
+    #242629,
+    #242629
   );
 
   --imp-text-color: #7f5af0;
@@ -80,7 +80,7 @@ button:focus {
 .sticky {
   background-color: #16161a !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px #16161a !important;
+  /* box-shadow: 0px 10px 10px 0px #16161a !important; */
   backdrop-filter: blur(15px) !important;
 }
 
@@ -245,6 +245,7 @@ button:focus {
     transform: rotate(0deg);
   }
 }
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
@@ -291,7 +292,6 @@ button:focus {
   font-size: 2.2em !important;
   color: #7f5af0 !important;
   font-weight: 600 !important;
-  /* overflow: overlay; */
 }
 
 .Typewriter__cursor {
@@ -303,10 +303,12 @@ button:focus {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
+    /* position: absolute !important; */
   }
   .Typewriter__cursor {
-    display: none !important;
+    /* display: none !important; */
+    font-size: 1.6em !important;
+    color: #7f5af0 !important;
   }
 }
 
@@ -470,19 +472,32 @@ button:focus {
   height: auto !important;
 }
 
+.project-card-body {
+  background-color: #16161a !important;
+}
+.project-card-img {
+  background-color: #16161a !important;
+}
+
 .project-card-view {
-  box-shadow: 0 4px 5px 3px #7f5af0 !important;
+  /* box-shadow: 0 4px 5px 3px #7f5af0 !important; */
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  /* border-style: solid !important;
+  border-width: medium !important;
+  border-color: #7f5af0 !important; */
 }
 
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #7f5af0 !important;
+  /* box-shadow: 0 4px 4px 5px #7f5af0 !important; */
+  border-style: solid;
+  border-width: medium;
+  border-color: #7f5af0;
 }
 
 .btn-primary {
