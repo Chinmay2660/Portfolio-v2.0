@@ -480,7 +480,6 @@ button:focus {
 }
 
 .project-card-view {
-  /* box-shadow: 0 4px 5px 3px #7f5af0 !important; */
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -494,7 +493,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #7f5af0 !important;
+  box-shadow: 0 3px 3px 5px #7f5af0 !important;
 }
 
 .btn-primary {
@@ -505,8 +504,6 @@ button:focus {
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #7f5af0 !important;
-  border-color: #7f5af0 !important;
 }
 
 .btn-primary-inner:hover {
@@ -558,7 +555,7 @@ button:focus {
 .tech-icons:hover{
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 4px 5px 4px 3px #7f5af0 !important;
+  box-shadow: 0 3px 3px 5px #7f5af0 !important;
 }
 
 .home-btn-container{
@@ -631,7 +628,6 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #7f5af0 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -639,9 +635,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #7f5af0 !important;
-  border-color: #7f5af0 !important;
 }
+
 .fork-btn-inner::after {
   display: none !important;
 }
