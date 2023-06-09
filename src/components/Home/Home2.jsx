@@ -34,14 +34,14 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new
               <i>
-                <b className="purple">Web Technologies and Products. </b>
+                <b className="purple"> Web Technologies and Products. </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <i><b className="purple">Node.js</b></i> and
               <i>
                 <b className="purple">
                   {" "}
